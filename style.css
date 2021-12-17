@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+}
+
+.topnav {
+  height: 50px;
+  width: auto;
+  overflow: hidden;
+}
+.topnavleft {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.logo {
+  width: 5%;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+}
+.logoimg {
+  padding-top: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+.navmenu {
+  margin: 0 0 0 10%;
+  height: 100%;
+}
+
+.menulist {
+  list-style: none;
+  color: #000;
+}
+
+.navmenu li {
+  float: left;
+  /* margin: 0px 10px; */
+  height: 20px;
+  padding: 15px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(223, 13, 13);
+  line-height: 40%;
+}
+
+.topnavright {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.navmenuright {
+  margin: 0 0 0 10%;
+  height: 100%;
+}
+
+.navmenuright li {
+  float: right;
+  height: 20px;
+  padding: 15px;
+}
+
+.bottomnav {
+  height: 50px;
+  width: auto;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.btn {
+  font-size: 15px;
+  background-color: rgb(223, 13, 13);
+  padding: 6px 15px;
+  border-radius: 10px;
+}
+.navmenualt {
+  margin: 0 0 0 0%;
+}
+
+.iconlist {
+  float: right;
+}
+/* .navmenu li:last-child {
+  float: right;
+}
+.navmenu li:nth-last-child(2) {
+  float: right;
+} */
+
+.sidemenu {
+  background-color: beige;
+  width: 20%;
+  height: 100%;
+}
+
+.h23 {
+  margin-bottom: 40px;
+}
+.topic {
+  height: 140px;
+  width: 100%;
+  margin-left: 20%;
+}
